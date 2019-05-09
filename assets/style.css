@@ -14,13 +14,15 @@ body {
 }
 
 #timer {
+    font-weight: bold;
     text-align: center;
 }
 
 #timerFace {
+    border: 2px solid gray;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 74px;
+    font-size: 69px;
     color: white;
     background-color: black;
 }
