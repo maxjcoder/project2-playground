@@ -13,7 +13,10 @@ body {
     float: right;
 }
 
-#timer,
+#timer {
+    text-align: center;
+}
+
 #timerFace {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
