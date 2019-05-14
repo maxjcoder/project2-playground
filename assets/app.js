@@ -6,7 +6,8 @@ function validform() {
     var a = document.forms["my-form"]["name"].value;
     var b = document.forms["my-form"]["email-address"].value;
     var c = document.forms["my-form"]["nickname"].value;
-    var d = document.forms["my-form"]["photo-url"].value;
+    var d = document.forms["my-form"]["password"].value;
+    var e = document.forms["my-form"]["photo-url"].value;
 
     if (a == null || a == "") {
         alert("Please Enter Your Name");
