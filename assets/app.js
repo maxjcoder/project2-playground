@@ -31,7 +31,7 @@ submit.onclick = function() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email_address").value;
     var nickName = document.getElementById("nick_name").value;
-    var poassword = document.getElementById("password").value;
+    var password = document.getElementById("password").value;
     var photoUrl = document.getElementById("photo_url").value;
     var goals = document.getElementById("goals_list").value;
 }
