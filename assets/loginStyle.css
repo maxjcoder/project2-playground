@@ -1,53 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
 html,
 body {
-    background-image: url(./images/signinBackground3.jpg);
-    width: 100%;
+    background-image: url("./images/loginBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
+    font-family: 'Numans', sans-serif;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
-body {
-    margin: 0;
-    font-size: .9rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #212529;
-    text-align: left;
-    background-color: #f5f8fa;
+.container {
+    height: 100%;
+    align-content: center;
 }
 
-.navbar-Trainr {
-    box-shadow: 0 2px 4px rgba(54, 54, 54, 0.04);
-    background-color: rgba(214, 202, 202, 0.75);
+.card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.navbar-brand,
-.nav-link,
-.my-form,
-.login-form {
-    font-family: Raleway, sans-serif;
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
 }
 
-.form-control:hover {
-    border: 2px solid grey;
+.card-header h3 {
+    color: white;
 }
 
-.my-form {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
 }
 
-.my-form .row {
-    margin-left: 0;
-    margin-right: 0;
+.input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
 }
 
-.login-form {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
 }
 
-.login-form .row {
-    margin-left: 0;
-    margin-right: 0;
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+.links a {
+    margin-left: 4px;
 }

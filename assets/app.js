@@ -1,3 +1,6 @@
+var submit = document.getElementById("submit");
+var clear = document.getElementById("clear");
+
 function validform() {
 
     var a = document.forms["my-form"]["name"].value;
@@ -22,4 +25,22 @@ function validform() {
         return false;
     }
 
+}
+
+submit.onclick = function() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email_address").value;
+    var nickName = document.getElementById("nick_name").value;
+    var poassword = document.getElementById("password").value;
+    var photoUrl = document.getElementById("photo_url").value;
+    var goals = document.getElementById("goals_list").value;
+}
+
+clear.onclick = function() {
+    document.getElementById("name").value = "";
+    document.getElementById("email_address").value = "";
+    document.getElementById("nick_name").value = "";
+    document.getElementById("password").value = "";
+    document.getElementById("photo_url").value = "";
+    document.getElementById("goals_list").value = "";
 }
