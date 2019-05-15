@@ -31,18 +31,17 @@
 
         //Create a new object
         var azPopChart = new Chart("myChart", {
-            type: "bar", //bar, horizontalBar, pie, line, doughnut, radar, polarArea
+            type: "doughnut", //bar, horizontalBar, pie, line, doughnut, radar, polarArea
             data: {
-                labels: ["Phoenix", "Tucson", "Mesa", "Chandler", "Glendale", "Scottsdale"],
+                labels: ["5/1", "5/2", "5/3", "5/4", "5/5"],
                 datasets: [{
-                    label: "Population",
+                    label: "Sets",
                     data: [
-                        1445632,
-                        520116,
-                        439041,
-                        236123,
-                        226721,
-                        217385
+                        3,
+                        2,
+                        4,
+                        0,
+                        0,
                     ]
                 }]
             },
